@@ -15,7 +15,7 @@ means that we can use them in quantum technologies in a device-independent way [
 In a device-independent framework, we are not concerned with the precise details of how the
 devices function. Rather, we only assume that the devices obey the laws of quantum theory
 and that the devices do not secretly communicate with each other.
-
+![image](https://github.com/fluttering13/Quantum-nonlocality/tree/master/Figure/Bell_sceanrio.png)
 In a typical Bell experiment, two parties, Alice and Bob, share two particles from the
 same source and stay in space-like separation to ensure that they obey the principle of locality (with respect to causality in special relativity). We assume that Alice and Bob can
 freely choose to perform the respective measurements x and y and obtain the outcomes a,
