@@ -16,7 +16,7 @@ In a device-independent framework, we are not concerned with the precise details
 devices function. Rather, we only assume that the devices obey the laws of quantum theory
 and that the devices do not secretly communicate with each other.
 
-![image](https://github.com/fluttering13/Quantum-nonlocality/blob/master/Figure/Bell_sceanrio.png)
+![image](https://github.com/fluttering13/Quantum-nonlocality/blob/master/Figure/Bell_sceanrio.png=100x200)
 
 In a typical Bell experiment, two parties, Alice and Bob, share two particles from the
 same source and stay in space-like separation to ensure that they obey the principle of locality (with respect to causality in special relativity). We assume that Alice and Bob can
