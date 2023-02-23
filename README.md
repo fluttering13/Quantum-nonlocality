@@ -20,16 +20,16 @@ and that the devices do not secretly communicate with each other.
 
 In a typical Bell experiment, two parties, Alice and Bob, share two particles from the
 same source and stay in space-like separation to ensure that they obey the principle of locality (with respect to causality in special relativity). We assume that Alice and Bob can
-freely choose to perform the respective measurements x and y and obtain the outcomes a,
-b, respectively. Locally, Alice and Bob produce their outcomes, and the resulting joint conditional probability distribution P(a, b|x, y) is called the correlation. Here, Alice and Bob
-are permitted to use some shared randomness, represented by the parameter λ with possible
-values from a set Λ. Note that λ is independent of parties’ inputs alphabets x, y, z, etc. From
+freely choose to perform the respective measurements $x$ and $y$ and obtain the outcomes a,
+b, respectively. Locally, Alice and Bob produce their outcomes, and the resulting joint conditional probability distribution $P(a, b|x, y)$ is called the correlation. Here, Alice and Bob
+are permitted to use some shared randomness, represented by the parameter $λ$ with possible
+values from a set $Λ$. Note that $λ$ is independent of parties’ inputs alphabets $x$, $y$, $z$, etc. From
 this perspective, several applications of sharing a correlated random string can be discussed,
 such as secret key generation, privacy amplification, communication complexity, and the
 classical simulation of quantum nonlocal statistics.
 
 ## Take an example of local correlation: local deterministic strategy
-Consider the local hidden variable model, Alice and Bob share the hidden variables λ, and
+Consider the local hidden variable model, Alice and Bob share the hidden variables $λ$, and
 the joint probabilities distribution is given by:
 
 $$\sum_\lambda P(\lambda) P(a \mid x, \lambda) P(b \mid y, \lambda)$$
