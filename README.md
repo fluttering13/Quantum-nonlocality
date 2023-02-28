@@ -112,6 +112,7 @@ $$D_{ax} \otimes D_{by}=\left[\begin{array}{llll}
 
 End up
 <div align=center><img src="https://github.com/fluttering13/Quantum-nonlocality/blob/master/Figure/mathpix%202023-02-22%2017-46-15.png" width="200px"/></div>
+
 ## The quantum set $\mathcal{Q}$
 To better understand the counterintuitive features of quantum mechanics, it pays to investigate the difference between the set of Bell-local correlations and those allowed in quantum theory. This can be done, for example, by investigating the maximal quantum violation of a Bell inequality. To begin with the characterization of quantum correlations, recall that the outcome probabilities for quantum measurements are governed by Born's rule.
 $$P(a, b \mid x, y) = \operatorname{tr}\left(\rho M_{a \mid x} \otimes M_{b \mid y}\right)$$
@@ -119,10 +120,31 @@ $$P(a, b \mid x, y) = \operatorname{tr}\left(\rho M_{a \mid x} \otimes M_{b \mid
 The joint conditional probability can be defined for any bipartite density matrix $\rho$ and a set of positive operator-valued measures [NC11] $M_{a \mid x}$ and $M_{b \mid y}$ for Alice and Bob, respectively.  By that definition, it is straightforward to show that the quantum set $\mathcal{Q}$ strictly belongs to the $\mathcal{NS}$ set.
 Also, if density matrix is separable, the corresponding probability distribution must be local. In general, the following relations hold for the sets considered here:
 $$\mathcal{L} \subsetneq \mathcal{Q} \subsetneq \mathcal{N S}.$$
-A full characterization of the set of quantum correlations is an important but difficult issue. The standard approach is to use some hierarchy of SDPs that provides a collection of outer approximations
+A full characterization of the set of quantum correlations is an important but difficult issue. The standard approach is to use some hierarchy of SDPs that provides a collection of outer approximations.  
+For an example, NPA hierarchy is an outer approximation of qunatum sets.
+<div align=center><img src="https://github.com/fluttering13/Quantum-nonlocality/blob/master/Figure/Almost-quantum.png" width="200px"/></div>
+
 ****
 https://arxiv.org/abs/quant-ph/0607119  
 https://arxiv.org/abs/0803.4290  
 https://arxiv.org/abs/0803.4373  
 https://arxiv.org/abs/1302.1336  
 ****
+The local bound $B_0$, the quantum bound from see-saw method $B_\mathcal{Q}$, and the NPA method $B_{NPA}$ are given from different SDP optimization methods.
+<div align=center><img src="https://github.com/fluttering13/Quantum-nonlocality/blob/master/Figure/BLQNPA.png" width="250px"/></div>
+
+The NPA hierarchy, which is a convergent hierarchy with different levels, provides a quantum approximation by replacing the tensor product in Born's rule with commuting operators. These details of the SDP hierarchy can be found in the above. In practice, since we maximize over an outer approximation, the following SDP originating from NPA gives an upper bound to the maximal quantum value.
+
+<div align=center><img src="https://github.com/fluttering13/Quantum-nonlocality/blob/master/Figure/mathpix 2023-02-28 18-54-57_iqiyi.png" width="150px"/></div>
+
+Here we write the Bell value as the inner product of $\vec{B}$, which is the vector form of Bell inequality coefficients, and the correlation $\vec{P}$. The positivity constraint on the moment $\chi$ in the above equation provides a necessary (but generally insufficient) condition for the correlation to be quantum, thus resulting in an outer approximation.
+
+<div align=center><img src="https://github.com/fluttering13/Quantum-nonlocality/blob/master/Figure/mathpix 2023-02-28 18-54-27_iqiyi.png" width="150px"/></div>
+
+To check whether the bound obtained from the SDP is tight, we also perform heuristic maximizations of the Bell value over fixed $d$-dimensional Hilbert space. This can be written as the SDP formula where $\mathcal{Q}_d$ denotes the convex hull of the set of quantum correlations arising from up to $d$-dimensional Hilbert space. One such method goes by the name of the seesaw algorithm.  
+See the details in the following two papers:
+****
+https://arxiv.org/abs/quant-ph/0107093  
+https://arxiv.org/abs/quant-ph/0608128  
+****
+By using both methods, one can compare the lower and the upper bound therefore we have a promise of a tight bound if they coincide, although in practice this only happens up to some numerical precision. So far, we have understood how to approximate the quantum bound. In the following section, we proceed to with the quantification of nonlocality.
