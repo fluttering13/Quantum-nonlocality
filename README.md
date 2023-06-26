@@ -114,7 +114,7 @@ End up
 
 ## The quantum set $\mathcal{Q}$
 To better understand the counterintuitive features of quantum mechanics, it pays to investigate the difference between the set of Bell-local correlations and those allowed in quantum theory. This can be done, for example, by investigating the maximal quantum violation of a Bell inequality. To begin with the characterization of quantum correlations, recall that the outcome probabilities for quantum measurements are governed by Born's rule.
-$$P(a, b \mid x, y) = \operatorname{tr}\left(\rho M_{a \mid x} \otimes M_{b \mid y}\right)$$
+$$P(a, b \mid x, y) = Tr \left(\rho M_{a \mid x} \otimes M_{b \mid y}\right)$$
 
 The joint conditional probability can be defined for any bipartite density matrix $\rho$ and a set of positive operator-valued measures [NC11] $M_{a \mid x}$ and $M_{b \mid y}$ for Alice and Bob, respectively.  By that definition, it is straightforward to show that the quantum set $\mathcal{Q}$ strictly belongs to the $\mathcal{NS}$ set.
 Also, if density matrix is separable, the corresponding probability distribution must be local. In general, the following relations hold for the sets considered here:
