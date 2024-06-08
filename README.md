@@ -1,4 +1,4 @@
-See the details in my thesis. To have better understanding, here is the main messages.
+See the details in my thesis (branch: master). To have better understanding, here is the main messages.
 # Quantum-nonlocality
 
 One of the most striking manifestations of quantum entanglement lies in its ability to produce correlations that violate a Bell inequality even when measurements are carried out space-like separated. A precursor to this discovery was first discussed in the famous paper of Einstein-Podolsky-Rosen in 1935. Later, in 1964, Bell showed that some correlations allowed in quantum mechanics are impossible in local hidden variable theories.
